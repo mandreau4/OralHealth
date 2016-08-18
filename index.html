@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>OralHealth --Consultorio Odontológico</title>
+	<meta charset="utf-8">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Allerta " rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/oralhealth.css">
+
+</head>
+<body> 
+
+	
+	<section id="portada" class="portada background">	<!-- portada -->
+		<header id="header" class="header contenedor"><!-- header -->
+			<figure class="logotipo"><!-- logotipo -->
+				<img src="images/oralhealth.png" alt="oralhealth logotipo" width="186" height="60"> 
+			</figure>	
+			<nav class="menu">	<!-- menu	 -->
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="#servicios">Servicios</a>
+					</li>			
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+				</ul>
+			</nav>	
+		</header>
+		<div class="contenedor">
+			<h1 class="titulo">Oral Health	</h1><!-- titulo -->
+			<h3 class="title-a">Cuida tu salud oral</h3><!-- resumen -->
+			<a class="button" href="#servicios">Conoce más</a><!-- boton -->
+		</div>		
+	</section>
+	<section id="servicios" class="servicios contenedor"> <!--servicios -->
+		<h2>Nuestros Servicios</h2><!-- titulo -->
+		<article class="guitarra"><!-- guitarra1 -->
+			<img class="derecha" src="images/invie-acustica.png" alt="ortodoncia" width="350">
+				<div class="contenedor-guitarra-a">
+					<h3 class="title-b">Ortodoncia</h3>
+					<ol>
+						<li>estilo vintage</li>
+						<li>Madera Pura</li>
+						<li>Incluye estuche de aluminio</li>
+					</ol>	
+				</div>
+				
+		</article>
+		<article class="guitarra b"><!-- guitarra2 -->
+			<img class="izquierda" src="images/invie-classic.png" alt="rehabilitacion oral" width="350">
+				<div class="contenedor-guitarra-b">
+					<h3 class="title-b">Rehabilitación oral</h3>
+					<ol>
+						<li>estilo vintage</li>
+						<li>Liviana</li>
+						<li>Inicia tu camino como rockstar</li>
+					</ol>
+				</div>					
+		</article>		
+	</section>
+	<footer class="footer">
+		<div class="contenedor">
+			<div class="contacto">
+				<img src="images/invie-white.png" alt="oralhealth logotipo">
+				<a href="tel:+57303159772"><strong>Teléfono</strong><span>303159772</span></a>
+				<a href="mailto:mandreau4@gmail.com"><strong>E-mail</strong><span>contacto@invie.com</span></a>				
+			</div>
+			<form class="formulario">
+				<div class="col1">
+					<label for="nombre">Nombre</label>
+						<input type="text" name="nombre" placeholder="Ingrese su nombre" id="nombre" required>
+					<label for="email">E-mail</label>
+						<input type="email" name="email" required id="email">
+					<div class="sexo">
+						<label for="mujer">
+							<input type="radio" checked name="sexo" id="mujer" value="mujer"> Mujer
+						</label>
+						<label for="hombre">
+							<input type="radio" name="sexo" id="hombre" value="hombre"> Hombre
+						</label>					
+					</div>
+					<div class="intereses">
+						<label for="cotizacion">
+							<input type="checkbox" checked id="cotización" name="intereses" value="cotizacion"> Cotización
+						</label>
+						<label for="reclamos">
+							<input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+						</label>
+						<label for="comentarios">
+							<input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+						</label>
+						<label for="otros">
+							<input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+						</label>
+					</div>
+				</div>				
+
+				<div class="col2">
+					<label for="asunto">Asunto</label>
+					<textarea name="asunto" id="asunto" cols="30" rows="7"></textarea>					
+					<input type="submit" class="button" name="Enviar"/>						
+				</div>
+			</form>
+		</div>			
+	</footer>
+</body>
+</html>
